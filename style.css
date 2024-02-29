@@ -1,7 +1,7 @@
 .calculator-container {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
+    border: 1px solid black;
     height: 650px;
     width: 425px;
     margin: 75px auto;
@@ -11,9 +11,13 @@
 }
 
 .display {
-    border: 1px solid blue;
+    border: 1px solid black;
     min-width: 400px;
     height: 100px;
+    font-size: 75px;
+    text-align: end;
+    align-self: center;
+    padding: 5px;
 }
 
 .buttons-container{
