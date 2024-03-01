@@ -12,12 +12,13 @@
 
 .display {
     border: 1px solid black;
-    min-width: 400px;
+    width: 400px;
     height: 100px;
     font-size: 75px;
     text-align: end;
     align-self: center;
     padding: 5px;
+    overflow: hidden;
 }
 
 .buttons-container{

@@ -26,6 +26,11 @@ function operate(num1, operator, num2){
         case '*':
             return multiply(num1, num2);
         case '/':
+            if(num2 === 0){
+                num1 = null;
+                num2 = null;
+                return alert('Divide by 0 error');
+            }
             return divide(num1, num2);
     }
 }
